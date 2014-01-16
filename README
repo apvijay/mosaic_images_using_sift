@@ -1,0 +1,16 @@
+Mosaic two images using the homography found between them using SIFT
+correspondences. 
+
+main.m - main function
+
+match_using_sift.m (not provided) - SIFT is patented. Use match.m and sift.m
+functions provided in the link below. See the license provided in the
+link for usage.
+http://www.cs.ubc.ca/~lowe/keypoints/
+
+calc_homography_using_ransac.m - Calculate homography from the SIFT
+correspondences using RANSAC (http://en.wikipedia.org/wiki/RANSAC).
+
+mosaic_images.m - Mosaic two images using the given homography matrix.
+
+warp_image.m - Warp an image using the given homography matrix.
